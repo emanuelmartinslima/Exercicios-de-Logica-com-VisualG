@@ -23,7 +23,7 @@ Inicio
    Fimenquanto
 
    media <- soma / numerosLidos
-   
+
    Escreval("Somatório: ", soma)
    Escreval("Média Aritmética: ", media:2:2)
 

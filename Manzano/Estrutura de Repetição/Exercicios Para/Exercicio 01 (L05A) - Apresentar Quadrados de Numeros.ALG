@@ -6,17 +6,17 @@ Algoritmo "Apresentar Quadrados de Numeros"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 11/04/2025
 Var
-// Seção de Declarações das variáveis 
-numero : inteiro
-quadrado : real
+   // Seção de Declarações das variáveis
+   numero : inteiro
+   quadrado : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Apresentação de Quadrados dos Números Entre 15 e 200")
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Apresentação de Quadrados dos Números Entre 15 e 200")
 
-Para numero de 15 ate 200 passo 1 faca
-     quadrado <- numero ^ 2
-     Escreval(numero, "² = ", quadrado:2:2)
-Fimpara
+   Para numero de 15 ate 200 passo 1 faca
+      quadrado <- numero ^ 2
+      Escreval(numero, "² = ", quadrado:2:2)
+   Fimpara
 
 Fimalgoritmo

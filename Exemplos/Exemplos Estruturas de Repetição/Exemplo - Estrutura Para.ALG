@@ -13,9 +13,9 @@ Inicio
    Para contador de 1 ate 10 passo 1 faca
       Escreval("Seu último dia fácil foi ontem!")
    Fimpara
-   
+
    Para contador de 10 ate 1 passo -1 faca
-        Escreval("Mãozinha de girino!")
+      Escreval("Mãozinha de girino!")
    Fimpara
 
 Fimalgoritmo

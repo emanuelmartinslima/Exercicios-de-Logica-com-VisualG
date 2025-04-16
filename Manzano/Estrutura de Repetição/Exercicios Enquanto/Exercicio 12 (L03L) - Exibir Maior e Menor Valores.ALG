@@ -34,7 +34,7 @@ Inicio
          Fimse
       Fimse
    Fimenquanto
-   
+
    Escreval("Maior Número: ", maior)
    Escreval("Menor Número: ", menor)
 

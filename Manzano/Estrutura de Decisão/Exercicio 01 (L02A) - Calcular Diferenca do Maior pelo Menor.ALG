@@ -25,9 +25,9 @@ Inicio
       maiorNumero <- numero2
       menorNumero <- numero1
    Fimse
-   
+
    diferenca <- maiorNumero - menorNumero
-   
+
    Escreval("Maior Número: ", maiorNumero)
    Escreval("Menor Número: ", menorNumero)
    Escreval("Diferença entre ", maiorNumero, " e ", menorNumero, " é ", diferenca)

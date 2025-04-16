@@ -21,7 +21,7 @@ Inicio
          numeroAtual <- numeroAnterior + numeroAtual
          numeroAnterior <- auxiliar
       Fimse
-      
+
       Escreva(numeroAtual)
 
       contador <- contador + 1

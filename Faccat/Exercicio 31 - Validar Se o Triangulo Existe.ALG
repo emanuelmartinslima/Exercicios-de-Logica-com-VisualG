@@ -6,29 +6,29 @@ Algoritmo "Validar se o triangulo existe"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 20/03/2025
 Var
-// Seção de Declarações das variáveis 
-ladoA, ladoB, ladoC, somaAB, somaBC, somaAC : real
+   // Seção de Declarações das variáveis
+   ladoA, ladoB, ladoC, somaAB, somaBC, somaAC : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Validação se É um Triângulo")
-Escreval("Digite o valor do lado A: ")
-Leia(ladoA)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Validação se É um Triângulo")
+   Escreval("Digite o valor do lado A: ")
+   Leia(ladoA)
 
-Escreval("Digite o valor do lado B: ")
-Leia(ladoB)
+   Escreval("Digite o valor do lado B: ")
+   Leia(ladoB)
 
-Escreval("Digite o valor do lado C: ")
-Leia(ladoC)
+   Escreval("Digite o valor do lado C: ")
+   Leia(ladoC)
 
-somaAB <- ladoA + ladoB
-somaBC <- ladoB + ladoC
-somaAC <- ladoA + ladoC
+   somaAB <- ladoA + ladoB
+   somaBC <- ladoB + ladoC
+   somaAC <- ladoA + ladoC
 
-Se ((ladoA > somaBC) ou (ladoB > somaAC) ou (ladoC > somaAB)) entao
-     Escreval("Não pode existir um triângulo com o valor desses lados.")
-Senao
-     Escreval("É possível existir o triângulo.")
-Fimse
+   Se ((ladoA > somaBC) ou (ladoB > somaAC) ou (ladoC > somaAB)) entao
+      Escreval("Não pode existir um triângulo com o valor desses lados.")
+   Senao
+      Escreval("É possível existir o triângulo.")
+   Fimse
 
 Fimalgoritmo

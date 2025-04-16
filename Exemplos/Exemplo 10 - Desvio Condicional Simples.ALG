@@ -5,15 +5,15 @@ Algoritmo "Desvio condicional simples"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 14/03/2025
 Var
-// Seção de Declarações das variáveis 
+   // Seção de Declarações das variáveis
    numero : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+   // Seção de Comandos, procedimento, funções, operadores, etc...
    Escreval("Desvio Condicional Simples")
    Escreval("Digite um número inteiro: ")
    Leia(numero)
-   
+
    Se (numero < 10) entao
       Escreval("O número", numero, " é menor que 10!")
    Fimse

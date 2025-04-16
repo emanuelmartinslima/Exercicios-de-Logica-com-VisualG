@@ -33,7 +33,7 @@ Inicio
    Senao
       situacao <- "Reprovado"
    Fimse
-   
+
    Escreval("")
    Escreval("Informações sobre o Aluno")
    Escreval("1° Nota: ", nota1:2:2)

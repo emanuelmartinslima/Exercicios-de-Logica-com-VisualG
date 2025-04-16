@@ -20,17 +20,17 @@ Inicio
    Leia(y)
 
    z <- (x * y) + 5
-   
+
    Se (z <= 0) entao
-        resposta <- "A"
+      resposta <- "A"
    Senao
-        Se (z <= 100) entao
-             resposta <- "B"
-        Senao
-             resposta <- "C"
-        Fimse
+      Se (z <= 100) entao
+         resposta <- "B"
+      Senao
+         resposta <- "C"
+      Fimse
    Fimse
-   
+
    Escreval("Z = ", z)
    Escreval("Resposta: ", resposta)
 

@@ -5,20 +5,20 @@ Algoritmo "Calcular area do retangulo"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 21/03/2025
 Var
-// Seção de Declarações das variáveis 
-base, altura, area : real
+   // Seção de Declarações das variáveis
+   base, altura, area : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Cálculo da Área do Retângulo")
-Escreval("Digite o valor da base do retângulo (em cm): ")
-Leia(base)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Cálculo da Área do Retângulo")
+   Escreval("Digite o valor da base do retângulo (em cm): ")
+   Leia(base)
 
-Escreval("Digite o valor da altura do retângulo (em cm): ")
-Leia(altura)
+   Escreval("Digite o valor da altura do retângulo (em cm): ")
+   Leia(altura)
 
-area <- base * altura
+   area <- base * altura
 
-Escreval("Área do retângulo: ", area, "cm²")
+   Escreval("Área do retângulo: ", area, "cm²")
 
 Fimalgoritmo

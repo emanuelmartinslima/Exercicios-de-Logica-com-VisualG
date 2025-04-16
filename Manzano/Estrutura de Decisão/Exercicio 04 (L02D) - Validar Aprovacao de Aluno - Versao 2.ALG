@@ -44,7 +44,7 @@ Inicio
          situacao <- "Reprovado"
       Fimse
    Fimse
-   
+
    Escreval("")
    Escreval("Informações do Aluno")
    Escreval("1° Nota: ", nota1:2:2)

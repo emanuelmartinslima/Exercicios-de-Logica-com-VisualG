@@ -25,7 +25,7 @@ Inicio
 
       contador <- contador + 1
    Fimenquanto
-   
+
    Escreval("Quantidade de Números Pares: ", numerosPares)
 
 Fimalgoritmo

@@ -5,19 +5,19 @@ Algoritmo "Calcular area do losango"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 14/03/2025
 Var
-// Seção de Declarações das variáveis 
+   // Seção de Declarações das variáveis
    diagonalMaior, diagonalMenor, area : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+   // Seção de Comandos, procedimento, funções, operadores, etc...
    Escreva("Digite o valor da diagonal maior do losango: ")
    Leia(diagonalMaior)
-   
+
    Escreva("Digite o valor da diagonal menor do losango: ")
    Leia(diagonalMenor)
-   
+
    area <- (diagonalMaior * diagonalMenor) / 2
-   
+
    Escreva("O valor da área do losango é: ", area)
 
 Fimalgoritmo

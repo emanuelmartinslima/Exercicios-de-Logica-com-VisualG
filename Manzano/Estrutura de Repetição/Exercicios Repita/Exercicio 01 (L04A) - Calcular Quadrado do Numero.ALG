@@ -13,7 +13,7 @@ Var
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    Escreval("Cálculo do Quadrado de Números")
-   
+
    numero <- 15
 
    Repita

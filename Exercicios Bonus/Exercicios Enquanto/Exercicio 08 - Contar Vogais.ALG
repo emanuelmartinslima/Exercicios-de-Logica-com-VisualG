@@ -31,7 +31,7 @@ Inicio
          Fimse
       Fimse
    Fimenquanto
-   
+
    Escreval("Número de Vogais: ", numeroVogais)
 
 Fimalgoritmo

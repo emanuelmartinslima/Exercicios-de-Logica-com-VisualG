@@ -5,23 +5,23 @@ Algoritmo "Verificar valor positivo e negativo e neutro"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 20/03/2025
 Var
-// Seção de Declarações das variáveis 
-numero : inteiro
+   // Seção de Declarações das variáveis
+   numero : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Verificação de Número Positivo, Negativo e Zero")
-Escreval("Digite um número inteiro: ")
-Leia(numero)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Verificação de Número Positivo, Negativo e Zero")
+   Escreval("Digite um número inteiro: ")
+   Leia(numero)
 
-Se (numero > 0) entao
-   Escreval("O número ", numero, " é positivo.")
-Senao
-   Se (numero = 0) entao
-      Escreval("O número é zero.")
+   Se (numero > 0) entao
+      Escreval("O número ", numero, " é positivo.")
    Senao
-      Escreval("O número ", numero, " é negativo.")
+      Se (numero = 0) entao
+         Escreval("O número é zero.")
+      Senao
+         Escreval("O número ", numero, " é negativo.")
+      Fimse
    Fimse
-Fimse
 
 Fimalgoritmo

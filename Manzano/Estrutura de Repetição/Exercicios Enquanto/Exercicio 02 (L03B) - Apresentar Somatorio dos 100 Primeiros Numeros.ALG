@@ -18,7 +18,7 @@ Inicio
       soma <- soma + numero
       Escreval("Soma + ", numero, " = ", soma)
    Fimenquanto
-   
+
    Escreval("Soma: ", soma)
 
 Fimalgoritmo

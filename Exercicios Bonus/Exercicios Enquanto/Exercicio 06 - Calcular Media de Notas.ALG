@@ -24,11 +24,11 @@ Inicio
          media <- media + nota
       Fimse
    Fimenquanto
-   
+
    Se (numeroNotas > 0) entao
-       media <- media / numeroNotas
+      media <- media / numeroNotas
    Fimse
-   
+
    Escreval("Média do aluno: ", media:2:2)
 
 Fimalgoritmo

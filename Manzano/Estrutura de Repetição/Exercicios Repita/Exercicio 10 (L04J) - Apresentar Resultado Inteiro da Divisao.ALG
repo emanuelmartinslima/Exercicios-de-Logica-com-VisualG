@@ -26,7 +26,7 @@ Inicio
             quociente <- quociente + 1
          Fimse
       Ate dividendo < divisor
-      
+
       Escreval("Quociente (resultado) Inteiro da Divisão: ", quociente)
    Senao
       Escreval("Divisor Inválido! Ele não pode ser igual a 0!")

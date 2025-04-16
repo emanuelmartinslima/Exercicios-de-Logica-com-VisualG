@@ -7,21 +7,21 @@ Algoritmo "Apresentar conversao de celsius para fahrenheit"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 11/04/2025
 Var
-// Seção de Declarações das variáveis 
-celsius, fahrenheit : real
+   // Seção de Declarações das variáveis
+   celsius, fahrenheit : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Apresentação da Conversão de Celsius para Fahrenheit")
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Apresentação da Conversão de Celsius para Fahrenheit")
 
-celsius <- 10
+   celsius <- 10
 
-Enquanto (celsius <= 100) faca
-         fahrenheit <- (9 * celsius + 160) / 5
-         
-         Escreval(celsius, "°C = ", fahrenheit, "°F")
-         
-         celsius <- celsius + 10
-Fimenquanto
+   Enquanto (celsius <= 100) faca
+      fahrenheit <- (9 * celsius + 160) / 5
+
+      Escreval(celsius, "°C = ", fahrenheit, "°F")
+
+      celsius <- celsius + 10
+   Fimenquanto
 
 Fimalgoritmo

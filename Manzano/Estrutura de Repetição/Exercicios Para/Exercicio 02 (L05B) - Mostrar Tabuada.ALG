@@ -6,19 +6,19 @@ Algoritmo "Apresentar Tabuada"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 11/04/2025
 Var
-// Seção de Declarações das variáveis 
-numero, contador, produto : inteiro
+   // Seção de Declarações das variáveis
+   numero, contador, produto : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Apresentar Tabuada")
-Escreval("Digite um número: ")
-Leia(numero)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Apresentar Tabuada")
+   Escreval("Digite um número: ")
+   Leia(numero)
 
-Escreval("Tabuada do ", numero)
-Para contador de 1 ate 10 passo 1 faca
-     produto <- numero * contador
-     Escreval(numero, " x ", contador, " = ", produto)
-Fimpara
+   Escreval("Tabuada do ", numero)
+   Para contador de 1 ate 10 passo 1 faca
+      produto <- numero * contador
+      Escreval(numero, " x ", contador, " = ", produto)
+   Fimpara
 
 Fimalgoritmo

@@ -6,25 +6,25 @@ Algoritmo "Calcular salario com comissao"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 19/03/2025
 Var
-// Seção de Declarações das variáveis 
-salarioFixo, vendasEfetuadas, valorExcedente, salarioFinal : real
+   // Seção de Declarações das variáveis
+   salarioFixo, vendasEfetuadas, valorExcedente, salarioFinal : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Cálculo de Salário com Comissão")
-Escreval("Digite o salário fixo: R$ ")
-Leia(salarioFixo)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Cálculo de Salário com Comissão")
+   Escreval("Digite o salário fixo: R$ ")
+   Leia(salarioFixo)
 
-Escreval("Digite o valor das vendas efetuadas: R$")
-Leia(vendasEfetuadas)
+   Escreval("Digite o valor das vendas efetuadas: R$")
+   Leia(vendasEfetuadas)
 
-Se (vendasEfetuadas > 1500) entao
-   valorExcedente <- vendasEfetuadas - 1500
-   salarioFinal <- salarioFixo + (1500 * 0.03) + (valorExcedente * 0.05)
-Senao
-   salarioFinal <- salarioFixo + (vendasEfetuadas * 0.03)
-Fimse
+   Se (vendasEfetuadas > 1500) entao
+      valorExcedente <- vendasEfetuadas - 1500
+      salarioFinal <- salarioFixo + (1500 * 0.03) + (valorExcedente * 0.05)
+   Senao
+      salarioFinal <- salarioFixo + (vendasEfetuadas * 0.03)
+   Fimse
 
-Escreval("Salário Final: R$", salarioFinal:2:2)
+   Escreval("Salário Final: R$", salarioFinal:2:2)
 
 Fimalgoritmo

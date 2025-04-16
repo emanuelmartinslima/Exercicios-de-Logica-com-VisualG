@@ -6,20 +6,20 @@ Algoritmo "Adivinhar numero"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 24/03/2025
 Var
-// Seção de Declarações das variáveis 
-numeroSecreto, numeroPalpite : inteiro
+   // Seção de Declarações das variáveis
+   numeroSecreto, numeroPalpite : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-numeroSecreto <- randi(10) + 1
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   numeroSecreto <- randi(10) + 1
 
-Escreval("Adivinhação de Número")
+   Escreval("Adivinhação de Número")
 
-Enquanto (numeroPalpite <> numeroSecreto) faca
-         Escreval("Digite um palpite para o número (entre 1 e 10): ")
-         Leia(numeroPalpite)
-Fimenquanto
+   Enquanto (numeroPalpite <> numeroSecreto) faca
+      Escreval("Digite um palpite para o número (entre 1 e 10): ")
+      Leia(numeroPalpite)
+   Fimenquanto
 
-Escreval("Parabéns, você acertou! O número secreto era ", numeroSecreto, "!")
+   Escreval("Parabéns, você acertou! O número secreto era ", numeroSecreto, "!")
 
 Fimalgoritmo

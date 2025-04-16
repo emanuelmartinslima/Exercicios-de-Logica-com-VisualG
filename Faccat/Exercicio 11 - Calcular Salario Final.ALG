@@ -7,30 +7,30 @@ Algoritmo "Calcular salario final"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 16/03/2025
 Var
-// Seção de Declarações das variáveis 
-salarioBase, vendaTotal, percentualVendaTotal, comissaoPorCarro, salarioFinal : real
+   // Seção de Declarações das variáveis
+   salarioBase, vendaTotal, percentualVendaTotal, comissaoPorCarro, salarioFinal : real
 
-numeroCarrosVendidos : inteiro
+   numeroCarrosVendidos : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Calcular Salário Final")
-Escreval("Digite o valor do salário fixo: R$")
-Leia(salarioBase)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Calcular Salário Final")
+   Escreval("Digite o valor do salário fixo: R$")
+   Leia(salarioBase)
 
-Escreval("Digite o número de carros vendidos: ")
-Leia(numeroCarrosVendidos)
+   Escreval("Digite o número de carros vendidos: ")
+   Leia(numeroCarrosVendidos)
 
-Escreval("Digite o valor da venda total de carros: R$")
-Leia(vendaTotal)
+   Escreval("Digite o valor da venda total de carros: R$")
+   Leia(vendaTotal)
 
-Escreval("Digite o valor da comissão por cada carro vendido: R$")
-Leia(comissaoPorCarro)
+   Escreval("Digite o valor da comissão por cada carro vendido: R$")
+   Leia(comissaoPorCarro)
 
-percentualVendaTotal <- 5
+   percentualVendaTotal <- 5
 
-salarioFinal <- salarioBase + (numeroCarrosVendidos * comissaoPorCarro) + (vendaTotal * percentualVendaTotal / 100)
+   salarioFinal <- salarioBase + (numeroCarrosVendidos * comissaoPorCarro) + (vendaTotal * percentualVendaTotal / 100)
 
-Escreval("Salário Final: R$", salarioFinal:2:2)
+   Escreval("Salário Final: R$", salarioFinal:2:2)
 
 Fimalgoritmo

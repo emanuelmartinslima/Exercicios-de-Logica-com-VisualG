@@ -12,7 +12,7 @@ Var
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    Escreval("Cálculo da Soma de Números Pares")
-   
+
    numero <- 1
 
    Repita

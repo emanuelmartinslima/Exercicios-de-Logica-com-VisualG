@@ -6,18 +6,18 @@ Algoritmo "Apresentar Soma dos 100 Primeiros Numeros"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 11/04/2025
 Var
-// Seção de Declarações das variáveis 
-numero, soma : inteiro
+   // Seção de Declarações das variáveis
+   numero, soma : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Apresentação da Soma dos 100 Primeiros Números")
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Apresentação da Soma dos 100 Primeiros Números")
 
-Para numero de 1 ate 100 passo 1 faca
-     soma <- soma + numero
-     Escreval("Soma com ", numero, ": ", soma)
-Fimpara
+   Para numero de 1 ate 100 passo 1 faca
+      soma <- soma + numero
+      Escreval("Soma com ", numero, ": ", soma)
+   Fimpara
 
-Escreval("Soma: ", soma)
+   Escreval("Soma: ", soma)
 
 Fimalgoritmo

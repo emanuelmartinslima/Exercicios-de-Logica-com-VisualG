@@ -24,12 +24,12 @@ Inicio
          soma <- soma + numero
          quantidadeNumerosPares <- quantidadeNumerosPares + 1
       Fimse
-      
+
       numero <- numero + 1
    Fimenquanto
 
    media <- soma / quantidadeNumerosPares
-   
+
    Escreval("Quantidade de Números Pares: ", quantidadeNumerosPares)
    Escreval("Somatório: ", soma)
    Escreval("Média Aritmética: ", media:2:2)

@@ -21,7 +21,7 @@ Inicio
       Fimse
 
       Escreval("3 ^ ", expoente, " = ", potencia)
-      
+
       expoente <- expoente + 1
    Fimenquanto
 

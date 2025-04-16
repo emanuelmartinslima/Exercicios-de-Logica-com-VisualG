@@ -16,7 +16,7 @@ Inicio
       Escreval("Digite um número para somar: ")
       Leia(numero)
    Fimenquanto
-   
+
    Escreval("Resultado da soma: ", soma)
 
 Fimalgoritmo

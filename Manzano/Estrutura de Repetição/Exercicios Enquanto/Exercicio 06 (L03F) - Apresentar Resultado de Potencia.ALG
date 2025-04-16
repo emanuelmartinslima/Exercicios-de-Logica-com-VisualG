@@ -17,7 +17,7 @@ Inicio
 
    Escreval("Digite o valor do expoente: ")
    Leia(expoente)
-   
+
    potencia <- 1
 
    Enquanto (contador < expoente) faca

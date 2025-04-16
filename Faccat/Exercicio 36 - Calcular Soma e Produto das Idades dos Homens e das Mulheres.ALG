@@ -42,10 +42,10 @@ Inicio
       mulherMaisVelha <- idadeMulher2
       mulherMaisNova <- idadeMulher1
    Fimse
-   
+
    soma <- homemMaisVelho + mulherMaisNova
    produto <- homemMaisNovo * mulherMaisVelha
-   
+
    Escreval("Idade do Homem mais Velho: ", homemMaisVelho)
    Escreval("Idade do Homem mais Novo: ", homemMaisNovo)
    Escreval("Idade da Mulher Mais Velha: ", mulherMaisVelha)

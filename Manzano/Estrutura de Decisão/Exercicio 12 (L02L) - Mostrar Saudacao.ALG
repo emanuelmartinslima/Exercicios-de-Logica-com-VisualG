@@ -26,11 +26,11 @@ Inicio
       Senao
          resposta <- "IImo Sra. "
       Fimse
-      
+
       Escreval("")
       Escreval(resposta, nome, "! Prazer em te ter no sistema!")
    Senao
-        Escreval("Sexo Inválido!")
+      Escreval("Sexo Inválido!")
    Fimse
 
 Fimalgoritmo

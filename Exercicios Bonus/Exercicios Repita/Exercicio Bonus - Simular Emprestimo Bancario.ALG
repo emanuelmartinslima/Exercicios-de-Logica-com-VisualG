@@ -38,39 +38,39 @@ Inicio
          mesesTotais <- (anoPrazo - anoInicioPagamento) * 12 + (mesPrazo - mesInicioPagamento)
       Fimse
    Senao
-        mesesTotais <- mesPrazo - mesInicio
+      mesesTotais <- mesPrazo - mesInicio
    Fimse
-   
+
    saldoDevedorAnterior <- valorEmprestimo
-   
+
    amortizacao <- valorEmprestimo / mesesTotais
-   
+
    taxaJurosMensal <- taxaJurosAnual / 12
-   
+
    Escreval("")
    Escreval("Valor Empréstimo: R$ ", valorEmprestimo:2:2)
    Escreval("Meses Totais: ", mesesTotais)
    Escreval("Amortização: R$ ", amortizacao:2:2)
    Escreval("Taxa de Juros Mensal: ", taxaJurosMensal:2:2, "%")
-   
+
    contadorParcelas <- 1
-   
+
    Repita
-         jurosMensal <- saldoDevedorAnterior * taxaJurosMensal / 100
-         parcelaComJuros <- amortizacao + jurosMensal
-         
-         valorEmprestimoFinal <- valorEmprestimoFinal + parcelaComJuros
-         
-         saldoDevedorAnterior <- saldoDevedorAnterior - amortizacao
-         
-         Escreval("")
-         Escreval("Parcela N°", contadorParcelas)
-         Escreval("Juros Mensal: R$ ", jurosMensal:2:2)
-         Escreval("Parcela com Juros Mensal: R$ ", parcelaComJuros:2:2)
-         
-         contadorParcelas <- contadorParcelas + 1
+      jurosMensal <- saldoDevedorAnterior * taxaJurosMensal / 100
+      parcelaComJuros <- amortizacao + jurosMensal
+
+      valorEmprestimoFinal <- valorEmprestimoFinal + parcelaComJuros
+
+      saldoDevedorAnterior <- saldoDevedorAnterior - amortizacao
+
+      Escreval("")
+      Escreval("Parcela N°", contadorParcelas)
+      Escreval("Juros Mensal: R$ ", jurosMensal:2:2)
+      Escreval("Parcela com Juros Mensal: R$ ", parcelaComJuros:2:2)
+
+      contadorParcelas <- contadorParcelas + 1
    Ate contadorParcelas > mesesTotais
-   
+
    Escreval("")
    Escreval("Valor Final do Empréstimo: ", valorEmprestimoFinal:2:2)
 

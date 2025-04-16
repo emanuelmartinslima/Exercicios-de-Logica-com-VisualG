@@ -6,21 +6,21 @@ Algoritmo "Calcular custo de compra de maças"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 19/03/2025
 Var
-// Seção de Declarações das variáveis 
-quantidadeDeMacas : inteiro
-valorTotal : real
+   // Seção de Declarações das variáveis
+   quantidadeDeMacas : inteiro
+   valorTotal : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Cálculo do Custo Total de Maçãs")
-Leia(quantidadeDeMacas)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Cálculo do Custo Total de Maçãs")
+   Leia(quantidadeDeMacas)
 
-Se (quantidadeDeMacas < 12) entao
-   valorTotal <- quantidadeDeMacas * 130 / 100
-Senao
-   valorTotal <- quantidadeDeMacas * 1
-Fimse
+   Se (quantidadeDeMacas < 12) entao
+      valorTotal <- quantidadeDeMacas * 130 / 100
+   Senao
+      valorTotal <- quantidadeDeMacas * 1
+   Fimse
 
-Escreval("Valor Total: R$", valorTotal:2:2)
+   Escreval("Valor Total: R$", valorTotal:2:2)
 
 Fimalgoritmo

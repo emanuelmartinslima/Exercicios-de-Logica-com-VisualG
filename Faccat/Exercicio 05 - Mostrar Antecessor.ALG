@@ -5,16 +5,16 @@ Algoritmo "Mostrar antecessor"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 16/03/2025
 Var
-// Seção de Declarações das variáveis 
-valor, antecessor : inteiro
+   // Seção de Declarações das variáveis
+   valor, antecessor : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite um número inteiro: ")
-Leia(valor)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite um número inteiro: ")
+   Leia(valor)
 
-antecessor <- valor - 1
+   antecessor <- valor - 1
 
-Escreval("O antecessor de", valor, " é", antecessor)
+   Escreval("O antecessor de", valor, " é", antecessor)
 
 Fimalgoritmo

@@ -7,17 +7,17 @@ Algoritmo "Apresentar valores de conversao de temperatura"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 11/04/2025
 Var
-// Seção de Declarações das variáveis 
-celsius : inteiro
-fahrenheit : real
+   // Seção de Declarações das variáveis
+   celsius : inteiro
+   fahrenheit : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Apresentação de Valores de Conversão de Temperatura")
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Apresentação de Valores de Conversão de Temperatura")
 
-Para celsius de 10 ate 100 passo 10 faca
-     fahrenheit <- ((9 * celsius) + 160) / 5
-     Escreval(celsius, "°C = ", fahrenheit, "°F")
-Fimpara
+   Para celsius de 10 ate 100 passo 10 faca
+      fahrenheit <- ((9 * celsius) + 160) / 5
+      Escreval(celsius, "°C = ", fahrenheit, "°F")
+   Fimpara
 
 Fimalgoritmo

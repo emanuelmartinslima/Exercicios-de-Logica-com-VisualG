@@ -5,16 +5,16 @@ Algoritmo "Temporizador Happy Way"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 28/03/2025
 Var
-// Seção de Declarações das variáveis 
-minutos, segundos : inteiro
+   // Seção de Declarações das variáveis
+   minutos, segundos : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
- 
- Para minutos de 59 ate 0 passo -1 faca
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   Para minutos de 59 ate 0 passo -1 faca
       Para segundos de 59 ate 0 passo -1 faca
-           Escreval(minutos, " : ", segundos)
+         Escreval(minutos, " : ", segundos)
       Fimpara
- Fimpara
+   Fimpara
 
 Fimalgoritmo

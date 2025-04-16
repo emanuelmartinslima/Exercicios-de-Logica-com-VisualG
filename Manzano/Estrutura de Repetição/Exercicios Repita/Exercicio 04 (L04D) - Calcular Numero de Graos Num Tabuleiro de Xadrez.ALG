@@ -14,7 +14,7 @@ Var
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    Escreval("Cálculo de Número de Grãos Num Tabuleiro de Xadrez")
-   
+
    quadro <- 1
    graosPorQuadro <- 1
 
@@ -24,11 +24,11 @@ Inicio
       Fimse
 
       graosTotais <- graosTotais + graosPorQuadro
-      
+
       Escreval("Número de Grãos no ", quadro, "° quadro: ", graosPorQuadro:2:2)
-      
+
       Escreval("Número de Grãos Totais: ", graosTotais:2:2)
-      
+
       quadro <- quadro + 1
    Ate quadro > 64
 

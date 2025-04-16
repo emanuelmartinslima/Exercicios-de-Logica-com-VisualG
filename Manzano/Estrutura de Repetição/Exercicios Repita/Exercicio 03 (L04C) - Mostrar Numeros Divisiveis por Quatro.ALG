@@ -12,7 +12,7 @@ Var
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    Escreval("Identificador de Números Divisíveis por Quatro")
-   
+
    numero <- 1
 
    Repita

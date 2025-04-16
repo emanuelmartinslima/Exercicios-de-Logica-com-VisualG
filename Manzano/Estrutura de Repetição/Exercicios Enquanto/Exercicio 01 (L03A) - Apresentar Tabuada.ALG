@@ -22,9 +22,9 @@ Inicio
 
    Enquanto (contador <= 10) faca
       produto <- numero * contador
-      
+
       Escreval(numero, " x ", contador, " = ", produto)
-      
+
       contador <- contador + 1
    Fimenquanto
 

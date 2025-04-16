@@ -6,19 +6,19 @@ Algoritmo "Apresentar Maior e Menor Valores"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 10/04/2025
 Var
-// Seção de Declarações das variáveis 
-numero, maior, menor, contador : inteiro
+   // Seção de Declarações das variáveis
+   numero, maior, menor, contador : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Apresentação de Maior e Menor Valores")
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Apresentação de Maior e Menor Valores")
 
-Repita
+   Repita
       Escreval("Digite um número: ")
       Leia(numero)
-      
+
       contador <- contador + 1
-      
+
       Se (numero > 0) entao
          Se (contador = 1) entao
             maior <- numero
@@ -31,9 +31,9 @@ Repita
             maior <- numero
          Fimse
       Fimse
-Ate numero < 0
+   Ate numero < 0
 
-Escreval("Maior Número: ", maior)
-Escreval("Menor Número: ", menor)
+   Escreval("Maior Número: ", maior)
+   Escreval("Menor Número: ", menor)
 
 Fimalgoritmo

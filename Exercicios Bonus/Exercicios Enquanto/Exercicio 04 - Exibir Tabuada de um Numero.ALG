@@ -5,22 +5,22 @@ Algoritmo "Exibir tabuada de um numero"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 24/03/2025
 Var
-// Seção de Declarações das variáveis 
-numero, contador, produto : inteiro
+   // Seção de Declarações das variáveis
+   numero, contador, produto : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Tabuada de um Número")
-Escreval("Digite um número para gerar a tabuada: ")
-Leia(numero)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Tabuada de um Número")
+   Escreval("Digite um número para gerar a tabuada: ")
+   Leia(numero)
 
-Escreval("Tabuada do ", numero)
+   Escreval("Tabuada do ", numero)
 
-Enquanto contador < 10 faca
-contador <- contador + 1
-produto <- contador * numero
+   Enquanto contador < 10 faca
+      contador <- contador + 1
+      produto <- contador * numero
 
-Escreval(numero, " x ", contador, " = ", produto)
-Fimenquanto
+      Escreval(numero, " x ", contador, " = ", produto)
+   Fimenquanto
 
 Fimalgoritmo

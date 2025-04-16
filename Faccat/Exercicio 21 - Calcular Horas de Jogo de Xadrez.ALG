@@ -6,28 +6,28 @@ Algoritmo "Calcular horas de jogo de xadrez"
 // Autor(a)    : Emanuel Martins de Lima
 // Data atual  : 19/03/2025
 Var
-// Seção de Declarações das variáveis 
-horarioInicio, horarioTermino, horasJogadas : inteiro
+   // Seção de Declarações das variáveis
+   horarioInicio, horarioTermino, horasJogadas : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Cálculo de Horas Jogadas: Xadrez")
-Escreval("Digite a hora de início do jogo: ")
-Leia(horarioInicio)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Cálculo de Horas Jogadas: Xadrez")
+   Escreval("Digite a hora de início do jogo: ")
+   Leia(horarioInicio)
 
-Escreval("Digite a hora de término do jogo: ")
-Leia(horarioTermino)
+   Escreval("Digite a hora de término do jogo: ")
+   Leia(horarioTermino)
 
-Se (horarioInicio > horarioTermino) entao
-   horasJogadas <- (24 - horarioInicio) + horarioTermino
-Senao
-   Se (horarioInicio = horarioTermino) entao
-      horasJogadas <- 24
+   Se (horarioInicio > horarioTermino) entao
+      horasJogadas <- (24 - horarioInicio) + horarioTermino
    Senao
-      horasJogadas <- horarioTermino - horarioInicio
+      Se (horarioInicio = horarioTermino) entao
+         horasJogadas <- 24
+      Senao
+         horasJogadas <- horarioTermino - horarioInicio
+      Fimse
    Fimse
-Fimse
 
-Escreval("Horas Jogadas: ", horasJogadas, "h")
+   Escreval("Horas Jogadas: ", horasJogadas, "h")
 
 Fimalgoritmo
