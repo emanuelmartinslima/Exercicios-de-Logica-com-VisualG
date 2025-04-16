@@ -27,6 +27,12 @@ Repita
       numeroComodos <- numeroComodos + 1
       areaComodo <- largura * comprimento
       areaResidencia <- areaResidencia + areaComodo
+
+      Escreval("Informações do Cômodo")
+      Escreval("Nome: ", nomeComodo)
+      Escreval("Largura: ", largura:2:2, " m")
+      Escreval("Comprimento: ", comprimento:2:2, " m")
+      Escreval("Área: ", areaComodo:2:2, " m²")
       
       Escreval("Você quer continuar a inserir mais cômodos? Digite sim ou não")
       Leia(resposta)
