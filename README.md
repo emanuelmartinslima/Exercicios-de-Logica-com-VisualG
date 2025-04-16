@@ -3,8 +3,8 @@ Repositório que contém todos os exercícios de lógica de programação utiliz
 <h2>Quantidade de Exercícios</h2>
 <ul>
   <li>Exemplos: 20 exercícios</li>
-  <li>Exercícios da Faccat: 38</li>
-  <li>Exercícios da Manzano: 61</li>
-  <li>Exercícios Bônus: 14</li>
-  <li>Total: 133</li>
+  <li>Exercícios da Faccat: 38 exercícios</li>
+  <li>Exercícios da Manzano: 61 exercícios</li>
+  <li>Exercícios Bônus: 14 exercícios</li>
+  <li>Total: 133 exercícios</li>
 </ul>
